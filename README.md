@@ -175,7 +175,12 @@ Exemplo:
 
 Exemplo:
 
-<img src="img/carro.jpg" width="100" alt="Carro" height="50">
+<img src="main_project/img/carro.jpg" width="100" alt="Carro" height="50">
+<img src="main_project/img/carro.jpg" width="100" alt="Carro" height="70">
+<img src="main_project/img/carro.jpg" width="100" alt="Carro" height="100">
+<img src="main_project/img/carro.jpg" width="100" alt="Carro" height="150">
+<img src="main_project/img/carro.jpg" width="100" alt="Carro" height="200">
+<img src="main_project/img/carro.jpg" width="100" alt="Carro" height="300">
 <img src="https://avatars.githubusercontent.com/u/95944772?v=4" width="1000" alt="Anniely, a linda" height="100">
 
 ```
@@ -262,24 +267,22 @@ Exemplo:
 ```
 <a href="https://github.com/annielymariah" target="_blank">Meu GitHub em nova aba</a>
 ```
-- <a href="outrasTags.html">Página no arquivo</a>
+- <a href="html\index.html">Página elaborada</a>
 ```
-<a href="outrasTags.html">Página no arquivo</a>
+<a href="html\index.html">Página no arquivo</a>
 ```
 
 ### 9 - Iframes
 
-`<iframe>` insere uma página dentro da sua página web, como um mini navegador.
+`<iframe>` insere uma página dentro da sua página web, como um mini navegador. Atualmente, não é mais tão utilizado devido o advento do CSS.
 - Em vídeos do Youtube, você pode incorporar vídeos, só copiando o código que eles disponibilizam.
 
-<iframe src="html\index.html">Página principal</iframe>
-
 ```
-<iframe src="html\index.html">Página principal</iframe>
+<iframe src="html/index.html">Página principal</iframe>
 ```
 
 - Utilizando hyperlinks, você conseguiria abrir uma página web dentro do seu Iframe.
+```
+<a href="main_project/index.html" target="meu-iframe">Página elaborada</a>
 
-<a href="outrasTags.html" target="meu-iframe">Página no arquivo</a>
-
-<iframe src="" name="meu-iframe" title="Iframe">Página principal</iframe>
+<iframe src="" name="meu-iframe" title="Iframe">Página principal</iframe>```
