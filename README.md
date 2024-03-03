@@ -21,7 +21,13 @@ Esta branch foi criada para documentar e compartilhar o conhecimento que adquiri
    - [Formulários (`<form>`)](#formulários)
    - [Incorporação de Mídia (Áudio e Vídeo)](#incorporação-de-mídia)
    - [Divisões (`<div>`)](#divisões)
-4. [HTML:5 Semântico](#html:5-semântico)
+4. [HTML:5 Semântico](#html5-semântico)
+   - [Header (`<header>`)](#header-header)
+   - [Main (`<main>`)](#main-main)
+   - [Section (`<section>`)](#section-section)
+   - [Article (`<article>`)](#article-article)
+   - [Figure (`<figure>`)](#figure-figure)
+   - [Footer (`<footer>`)](#footer-footer)
 
 
 ## Introdução ao HTML 
@@ -443,7 +449,7 @@ Exemplo de Div:
 
 Com a chegada do HTML5, a linguagem de marcação da web introduziu uma série de novas "tags" semânticas, que servem para estruturar melhor o conteúdo e tornar o código mais acessível, sendo elas o `<header>`, `<main>`, `<section>`, `<article>`, `<figure>` e `<footer>`, cada uma com um propósito específico para melhorar a organização e a semântica do conteúdo.
 
-### `<header>`
+### Header (`<header>`)
 Representa o cabeçalho de uma página ou de uma seção. Geralmente contém um conjunto de introdução ou navegação.
 
 ```html
@@ -455,7 +461,7 @@ Representa o cabeçalho de uma página ou de uma seção. Geralmente contém um 
 </header>
 ```
 
-### `<main>`
+### Main (`<main>`)
 Destina-se ao conteúdo principal do documento, único para cada página, facilitando a identificação da parte mais importante do conteúdo pelos leitores de tela.
 
 ```html
@@ -466,7 +472,7 @@ Destina-se ao conteúdo principal do documento, único para cada página, facili
 </main>
 ```
 
-### `<section>`
+### Section (`<section>`)
 Usada para definir seções dentro de um documento, como capítulos, agrupamentos temáticos de conteúdo ou funcionalidades.
 
 ```html
@@ -476,7 +482,7 @@ Usada para definir seções dentro de um documento, como capítulos, agrupamento
 </section>
 ```
 
-### `<article>`
+### Article (`<article>`)
 Ideal para partes do conteúdo que podem ser distribuídas independentemente do resto do site, como postagens de blog, artigos de notícias, etc.
 
 ```html
@@ -486,7 +492,7 @@ Ideal para partes do conteúdo que podem ser distribuídas independentemente do 
 </article>
 ```
 
-### `<figure>`
+### Figure (`<figure>`)
 Usada para incorporar mídias, como imagens, diagramas, fotos, código, que são referenciadas no documento principal.
 
 ```html
@@ -496,7 +502,7 @@ Usada para incorporar mídias, como imagens, diagramas, fotos, código, que são
 </figure>
 ```
 
-### `<footer>`
+### Footer (`<footer>`)
 Define o rodapé de uma página ou de uma seção, contendo informações como autor, direitos autorais, links de contato, etc.
 
 ```html
