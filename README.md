@@ -1,7 +1,7 @@
 <h1 align="center">HTML | HyperText Markup Language</h1>
 
 
-Este repositório foi criado para documentar e compartilhar o conhecimento que adquiri sobre HTML. Para meu aprendizado, utilizei a documentação da Mozilla Developer Network (MDN), além de participar do Curso de HTML oferecido por Dimitri Teixeira através de seu canal no YouTube, Programação Web.
+Esta branch foi criada para documentar e compartilhar o conhecimento que adquiri sobre HTML. Para meu aprendizado, utilizei a documentação da Mozilla Developer Network (MDN), além de participar do Curso de HTML oferecido por Dimitri Teixeira através de seu canal no YouTube, Programação Web.
 
 ### Índice
 1. [Introdução ao HTML](#introdução-ao-html)
@@ -261,7 +261,7 @@ Exemplo:
 </ol>
 ```
 
-### 8 - Links
+### Links
 
 `<a>` define um hyperlink, podendo ser usado para linkar para outra página, um endereço de email, entre outros.
 
@@ -294,7 +294,7 @@ Exemplo:
 ```
 <a href="main_project/index.html" target="meu-iframe">Página elaborada</a>
 
-<iframe src="" name="meu-iframe" title="Iframe">Página principal</iframe>```
+<iframe src="" name="meu-iframe" title="Iframe">Página principal</iframe>
 ```
 
 ### Formulários
@@ -484,4 +484,3 @@ Exemplo de Div:
 ```
 
 ## HTML Semântico
-
