@@ -512,4 +512,4 @@ Define o rodapé de uma página ou de uma seção, contendo informações como a
 ```
 
 Segue um exemplo gráfico:
-![Gráfico demonstrando a diferença entre div e HTML semântico](archives\laboratoria_image.png)<sub>Imagem retirada do site [Laboratória](https://curriculum.laboratoria.la/pt/topics/html/html5/semantic-html), todos os direitos reservados a eles.</sub>
+![Gráfico demonstrando a diferença entre div e HTML semântico](archives\laboratoria_image.png) <sub>Imagem retirada do site [Laboratória](https://curriculum.laboratoria.la/pt/topics/html/html5/semantic-html), todos os direitos reservados a eles.</sub>
