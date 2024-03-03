@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Você é o CAPUDÃO do Minecraft? Descubra agora!">
+    <meta name="author" content="Anniely Mariah">
+    <title>Quiz do Minecraft</title>
+</head>
+<body>
+    <h1>Quiz do Minecraft</h1>
+    <p>Seria você o maior conhecedor do Minecraft no BRASIL?</p>
+
+    <img src="img/bandeira-do-brasil.webp" alt="bandeira do Brasil" width="250">
+    <img src="img/creeper.png" alt="Creeper fofo" height="200">
+    
+    <hr>
+
+    <form>
+        <p>Quem é o Minecraft?</p>
+        <input type="radio" id="opcao1" name="questao1" value="1">
+        <label for="opcao1">Um jogo muito cria.</label>
+
+        <input type="radio" id="opcao2" name="questao1" value="0">
+        <label for="opcao2">Um cara muito cria.</label>
+        
+        <input type="radio" id="opcao3" name="questao1" value="0">
+        <label for="opcao3">Uma goiaba.</label>
+
+        <hr>
+    
+        <p>Quem pode jogar o Minecraft?</p>
+        <input type="checkbox" id="op1" name="questao2" value="mainha">
+        <label for="op1">Mainha</label>
+
+        <input type="checkbox" id="op2" name="questao2" value="vendedor_de_manga">
+        <label for="op2">O cara da manga</label>
+
+        <input type="checkbox" id="op3" name="questao2" value="vc">
+        <label for="op3">Você</label>
+
+        <hr>
+    
+        <p>Quando o Minecraft lançou?</p>
+        <select name="ano_lancamento">
+            <option selected disabled>Selecione o ano de lançamento</option>
+            <option value="false">2000</option>
+            <option value="false">2001</option>
+            <option value="false">2002</option>
+            <option value="false">2003</option>
+            <option value="false">2004</option>
+            <option value="false">2005</option>
+            <option value="true">18 de novembro de 2011</option>
+        </select>
+
+        <br><br>
+
+        <hr>
+    
+        <label for="text_song">Que música é a que você escutou? </label>
+        <br><br> 
+        <audio controls>
+            <source src="audio/aria_math.mp3" type="audio/mpeg">
+            Seu navegador não suporta áudio.
+        </audio>
+        <br><br> 
+        <input id="text_song" type="text" name="musica_escutada" placeholder="Insira a música aqui">
+    
+        <hr>
+
+        <label for="text_video">Que música é a que você escutou? </label>
+        <br><br> 
+        <video controls>
+            <source src="video/rap_do_minecraft.mp4" type="audio/mp4">
+            Seu navegador não suporta áudio.
+        </video>
+        <br><br> 
+        <input id="text_video" type="text" name="video_escutado" placeholder="Insira a música aqui">
+
+        <hr>
+    
+        <p>Digite o quanto você ama o Minecraft</p>
+        <textarea name="texto_de_amor" rows="4" cols="35" placeholder="Digite seu AMOR por Minecraft"></textarea>
+ 
+        <br><br>
+
+        <input type="submit" value="Enviar quiz">
+    </form>
+</body>
+</html>

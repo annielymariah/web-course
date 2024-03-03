@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Anniely Mariah">
+    <title>Formulário</title>
+</head>
+
+<body action="arquivo.php" method="post"> <!--Post é um método HTTPs de envio de dados-->
+    <h1>Formulário de Cadastramento</h1>
+    <p>Insira seus dados para realização do seu cadastro na plataforma.</p>
+
+    <form>
+
+        <label for="text_name">Nome:</label>
+        <input id="text_name" type="text" placeholder="Insira seu primeiro nome">
+
+        <br> <br>
+
+        <label for="text_lastname">Sobrenome:</label>
+        <input id="text_lastname" type="text" placeholder="Insira seu último nome" required>
+
+        <br> <br>
+
+        <label for="email">E-mail:</label>
+        <input id="email" type="email" placeholder="Insira seu email" required>
+
+        <br> <br>
+
+        <label for="password">Senha:</label>
+        <input id="password" type="password" placeholder="Insira sua senha" required>
+
+        <br> <br>
+
+        <input type="submit" value="Enviar cadastro">
+    </form>
+</body>
+
+</html>
