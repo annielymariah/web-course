@@ -331,28 +331,11 @@ Exemplo de formulário:
 
 - __Radio (Radio button):__ Utilizado para escolhas exclusivas dentro de um grupo.
 
-<br>
-
-<input type="radio" id="opcao1" name="opcao1" value="1">
-<label for="opcao1">Opção marcável</label>
-
-<br>
-
 ```
 <input type="radio" id="opcao1" name="opcao1" value="1">
 <label for="opcao1">Opção marcável</label>
 ```
 - __Checkbox (Checkbox):__  Permite a seleção múltipla de opções.
-
-<br>
-
-<input type="checkbox" id="opcao1" name="opcao1" value="1">
-<label for="op1">Opção marcável 1</label>
-
-<input type="checkbox" id="opcao2" name="opcao2" value="2">
-<label for="op1">Opção marcável 2</label>
-
-<br>
 
 ```
 <input type="checkbox" id="opcao1" name="opcao1" value="1">
@@ -365,23 +348,11 @@ Exemplo de formulário:
 
 - __Text (Campo de texto):__ Cria uma caixa de texto para entrada de texto.
 
-<br>
-
-<input id="text" type="text" name="texto" placeholder="Insira um texto">
-
-<br>
-
 ```
 <input id="text" type="text" name="texto" placeholder="Insira um texto">
 ```
 
 - __Date (Campo de data):__ Facilita a seleção de datas.
-
-<br>
-
-<input type="date" name="data_lancamento">
-
-<br>
 
 ```
 <input type="date" name="data_lancamento">
@@ -391,9 +362,6 @@ Exemplo de formulário:
 - __Number (Campo numérico):__ Limita a entrada a valores numéricos.
 
 
-<input type="number" name="quantidade" min="1" max="100">
-
-<br>
 
 ```
 <input type="number" name="quantidade" min="1" max="100">
@@ -401,11 +369,6 @@ Exemplo de formulário:
 
 - __Submit (Botão de envio):__ Submete o formulário quando pressionado.
 
-<br>
-
-<input type="submit" value="Enviar">
-
-<br> 
 
 ```
 <input type="submit" value="Enviar">
@@ -413,26 +376,12 @@ Exemplo de formulário:
 
 - __Textarea (Área de texto):__ Permite a entrada de um texto mais extenso, como comentários ou mensagens. Diferente do campo de texto `(<input type="text">)`, o `<textarea>` pode acomodar múltiplas linhas.
 
-<br>
-
-<textarea id="mensagem" name="mensagem" rows="4" cols="50" placeholder="Digite sua mensagem aqui"></textarea>
-
-<br>
-
 ```
 <textarea id="mensagem" name="mensagem" rows="4" cols="50" placeholder="Digite sua mensagem aqui"></textarea>
 ```
 
 - __Select (Caixa de seleção):__ Cria um menu suspenso que permite ao usuário escolher uma das opções pré-definidas. É útil para listas de opções onde a entrada livre do usuário não é desejada.
 
-<br>
-<select name="opcoes">
-  <option value="opcao1">Opção 1</option>
-  <option value="opcao2">Opção 2</option>
-  <option value="opcao3">Opção 3</option>
-</select>
-<br> <br>
- 
 ```
 <select name="opcoes">
   <option value="opcao1">Opção 1</option>
@@ -443,7 +392,7 @@ Exemplo de formulário:
     
 ### Incorporação de Mídia (Áudio e Vídeo)
 
-- __Áudio:__ Permite a incorporação de conteúdo de áudio em uma página web. O elemento <audio> pode ser usado para reproduzir um arquivo de áudio. É possível controlar a reprodução através de atributos como controls, que exibe os controles padrão de reprodução.
+- __Áudio:__ Permite a incorporação de conteúdo de áudio em uma página web. O elemento `<audio>` pode ser usado para reproduzir um arquivo de áudio. É possível controlar a reprodução através de atributos como controls, que exibe os controles padrão de reprodução.
 
 ```
 <audio controls>
@@ -452,7 +401,7 @@ Exemplo de formulário:
 </audio>
 ```
 
-- __Vídeo:__ Similar ao elemento de áudio, o elemento <video> é usado para incorporar conteúdo de vídeo em uma página. Também suporta o atributo controls, além de outros como width e height para definir as dimensões do vídeo.
+- __Vídeo:__ Similar ao elemento de áudio, o elemento `<video>` é usado para incorporar conteúdo de vídeo em uma página. Também suporta o atributo controls, além de outros como width e height para definir as dimensões do vídeo.
 
 ```
 <video controls width="250">
