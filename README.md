@@ -21,7 +21,7 @@ Esta branch foi criada para documentar e compartilhar o conhecimento que adquiri
    - [Formulários (`<form>`)](#formulários)
    - [Incorporação de Mídia (Áudio e Vídeo)](#incorporação-de-mídia)
    - [Divisões (`<div>`)](#divisões)
-4. [HTML Semântico](#html-semântico)
+4. [HTML:5 Semântico](#html:5-semântico)
 
 
 ## Introdução ao HTML 
@@ -45,7 +45,7 @@ Seção onde conterá os metadados da sua página web, sendo não diretamente vi
 - `<script>`: Referencia ou inclui código JavaScript que pode ser executado pelo navegador.
 
 Exemplo de head: 
-```
+```html
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -62,7 +62,7 @@ Exemplo de head:
 
  A seção `<body>` é onde o conteúdo visível da página web é colocado. É aqui que textos, imagens, vídeos, jogos, e outros elementos interativos são definidos para serem apresentados ao usuário. Cada elemento dentro do `<body>` pode ser estilizado usando CSS e manipulado com JavaScript.
 
- ```
+ ```html
  <body>
     <h1>Título X</h1>
     
@@ -79,7 +79,7 @@ Nessa seção estarão todos os elementos aprendidos por mim até o momento.
 
 Exemplo:
 
-```
+```html
 <h1>Isso é um título h1</h1>
 <h2>Isso é um título h2</h2>
 <h3>Isso é um título h3</h3>
@@ -94,7 +94,7 @@ Exemplo:
 
 Exemplo:
 
-```
+```html
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sint maxime aut, dolores, similique voluptate fugiat soluta corporis hic iste quisquam earum. Error vel tempore delectus inventore! Autem, doloremque fuga.</p>
 ```
 
@@ -106,54 +106,56 @@ Exemplo:
 
 <p>Isso é um parágrafo, e isto: <code>é um bloco de código</code></p>
 
-```
+```html
 <p>Isso é um parágrafo, e isto: <code>é um bloco de código</code></p>
 ```
 <p>Texto a seguir em: <b>negrito</b></p>
 
-```
+```html
 <p>Texto a seguir em: <b>negrito</b></p>
 ```
 <p>Texto a seguir em: <i>Itálico</i></p>
 
-```
+```html
 <p>Texto a seguir em: <i>Itálico</i></p>
 ```
 <p>Texto enfatizado: <strong>Strong</strong></p>
 
-```
+```html
 <p>Texto enfatizado: <strong>Strong</strong></p>
 ```
 <p>Texto a seguir em: <u>Sublinhado</u></p>
 
-```
+```html
 <p>Texto a seguir em: <u>Sublinhado</u></p>
 ```
 <p>Texto a seguir em: <small>Small</small></p>
 
-```
+```html
 <p>Texto a seguir em: <small>Small</small></p>
 ```
+
 <p>Texto a seguir em: <del>Deletado/Riscado</del></p>
 
-```
+```html
 <p>Texto a seguir em: <del>Deletado/Riscado</del></p>
 ```
+
 <p>Pular <br> a linha</p>
 
-
-```
+```html
 <p>Pular <br> a linha</p>
 ```
 
 <p><sub>Abaixo</sub> e <sup>Acima</sup></p>
 
-```
+```html
 <p><sub>Abaixo</sub> e <sup>Acima</sup></p>
 ```
+
 <p><mark>Texto marcado</mark></p>
 
-```
+```html
 <p><mark>Texto marcado</mark></p>
 ```
 ### Citações
@@ -164,22 +166,25 @@ Exemplo:
 
 <p>Estamos aprendendo <abbr title="Hyper Text Markup Language">HTML</abbr></p>
 
-```
+```html
 <p>Estamos aprendendo <abbr title="Hyper Text Markup Language">HTML</abbr></p>
 ```
+
 <p><address>rua X, Y, Z</address></p>
 
-```
+```html
 <p><address>rua X, Y, Z</address></p>
 ```
+
 <p><blockquote>Lorem ipsum dolor</blockquote>
 
-```
+```html
 <p><blockquote>Lorem ipsum dolor</blockquote>
 ```
+
 <p>No filme <cite>Rua do medo</cite>, fulano disse: <q>AAAAAAAAAAAAAAAAAA</q></p>
 
-```
+```html
 <p>No filme <cite>Rua do medo</cite>, fulano disse: <q>AAAAAAAAAAAAAAAAAA</q></p>
 ```
 
@@ -192,7 +197,7 @@ Exemplo:
 <img src="archives/carro.jpg" width="100" alt="Carro" height="50">
 <img src="https://avatars.githubusercontent.com/u/95944772?v=4" width="1000" alt="Imagem tirada da internet" height="100">
 
-```
+```html
 <img src="img/carro.jpg" width="100" alt="Carro" height="50">
 <img src="https://avatars.githubusercontent.com/u/95944772?v=4" width="1000" alt="Imagem tirada da internet" height="100">
 ```
@@ -216,7 +221,7 @@ Exemplo:
     </tr>
 </table>
 
-````
+````html
 <table>
     <tr> 
         <th>Nome</th>
@@ -242,7 +247,7 @@ Exemplo:
     <li>Tchau</li>
 </ul>
 
-```
+```html
 <ul>
     <li>Oi</li>
     <li>Tchau</li>
@@ -254,7 +259,7 @@ Exemplo:
     <li>Dois</li>
 </ol>
 
-```
+```html
 <ol>
     <li>Um</li>
     <li>Dois</li>
@@ -269,15 +274,18 @@ Exemplo:
 
 
 - <a href="https://github.com/annielymariah">Meu GitHub</a>
-```
+
+```html
 <a href="https://github.com/annielymariah">Meu GitHub</a>
 ```
 - <a href="https://github.com/annielymariah" target="_blank">Meu GitHub em nova aba</a>
-```
+
+```html
 <a href="https://github.com/annielymariah" target="_blank">Meu GitHub em nova aba</a>
 ```
 - <a href="html\index.html">Página elaborada</a>
-```
+
+```html
 <a href="html\index.html">Página no arquivo</a>
 ```
 
@@ -286,12 +294,13 @@ Exemplo:
 `<iframe>` insere uma página dentro da sua página web, como um mini navegador. Atualmente, não é mais tão utilizado devido o advento do CSS.
 - Em vídeos do Youtube, você pode incorporar vídeos, só copiando o código que eles disponibilizam.
 
-```
+```html
 <iframe src="html/index.html">Página principal</iframe>
 ```
 
 - Utilizando hyperlinks, você conseguiria abrir uma página web dentro do seu Iframe.
-```
+
+```html
 <a href="main_project/index.html" target="meu-iframe">Página elaborada</a>
 
 <iframe src="" name="meu-iframe" title="Iframe">Página principal</iframe>
@@ -303,8 +312,7 @@ Os formulários em HTML permitem a coleta de dados, como informações de contat
 
 Exemplo de formulário:
 
-```
-
+```html
 <body action="arquivo.php" method="post"> <!--Post é um método HTTPs de envio de dados-->
 
     <h1>Formulário de Cadastramento</h1>
@@ -326,35 +334,17 @@ Exemplo de formulário:
         <input type="submit" value="Enviar cadastro">
     </form>
 </body>
-
 ```
 
 - __Radio (Radio button):__ Utilizado para escolhas exclusivas dentro de um grupo.
 
-<br>
-
-<input type="radio" id="opcao1" name="opcao1" value="1">
-<label for="opcao1">Opção marcável</label>
-
-<br>
-
-```
+```html
 <input type="radio" id="opcao1" name="opcao1" value="1">
 <label for="opcao1">Opção marcável</label>
 ```
 - __Checkbox (Checkbox):__  Permite a seleção múltipla de opções.
 
-<br>
-
-<input type="checkbox" id="opcao1" name="opcao1" value="1">
-<label for="op1">Opção marcável 1</label>
-
-<input type="checkbox" id="opcao2" name="opcao2" value="2">
-<label for="op1">Opção marcável 2</label>
-
-<br>
-
-```
+```html
 <input type="checkbox" id="opcao1" name="opcao1" value="1">
 <label for="op1">Opção marcável 1</label>
 
@@ -365,25 +355,13 @@ Exemplo de formulário:
 
 - __Text (Campo de texto):__ Cria uma caixa de texto para entrada de texto.
 
-<br>
-
-<input id="text" type="text" name="texto" placeholder="Insira um texto">
-
-<br>
-
-```
+```html
 <input id="text" type="text" name="texto" placeholder="Insira um texto">
 ```
 
 - __Date (Campo de data):__ Facilita a seleção de datas.
 
-<br>
-
-<input type="date" name="data_lancamento">
-
-<br>
-
-```
+```html
 <input type="date" name="data_lancamento">
 ```
 
@@ -391,49 +369,27 @@ Exemplo de formulário:
 - __Number (Campo numérico):__ Limita a entrada a valores numéricos.
 
 
-<input type="number" name="quantidade" min="1" max="100">
 
-<br>
-
-```
+```html
 <input type="number" name="quantidade" min="1" max="100">
 ```
 
 - __Submit (Botão de envio):__ Submete o formulário quando pressionado.
 
-<br>
 
-<input type="submit" value="Enviar">
-
-<br> 
-
-```
+```html
 <input type="submit" value="Enviar">
 ```
 
 - __Textarea (Área de texto):__ Permite a entrada de um texto mais extenso, como comentários ou mensagens. Diferente do campo de texto `(<input type="text">)`, o `<textarea>` pode acomodar múltiplas linhas.
 
-<br>
-
-<textarea id="mensagem" name="mensagem" rows="4" cols="50" placeholder="Digite sua mensagem aqui"></textarea>
-
-<br>
-
-```
+```html
 <textarea id="mensagem" name="mensagem" rows="4" cols="50" placeholder="Digite sua mensagem aqui"></textarea>
 ```
 
 - __Select (Caixa de seleção):__ Cria um menu suspenso que permite ao usuário escolher uma das opções pré-definidas. É útil para listas de opções onde a entrada livre do usuário não é desejada.
 
-<br>
-<select name="opcoes">
-  <option value="opcao1">Opção 1</option>
-  <option value="opcao2">Opção 2</option>
-  <option value="opcao3">Opção 3</option>
-</select>
-<br> <br>
- 
-```
+```html
 <select name="opcoes">
   <option value="opcao1">Opção 1</option>
   <option value="opcao2">Opção 2</option>
@@ -443,18 +399,18 @@ Exemplo de formulário:
     
 ### Incorporação de Mídia (Áudio e Vídeo)
 
-- __Áudio:__ Permite a incorporação de conteúdo de áudio em uma página web. O elemento <audio> pode ser usado para reproduzir um arquivo de áudio. É possível controlar a reprodução através de atributos como controls, que exibe os controles padrão de reprodução.
+- __Áudio:__ Permite a incorporação de conteúdo de áudio em uma página web. O elemento `<audio>` pode ser usado para reproduzir um arquivo de áudio. É possível controlar a reprodução através de atributos como controls, que exibe os controles padrão de reprodução.
 
-```
+```html
 <audio controls>
   <source src="caminho_para_o_arquivo_de_audio.mp3" type="audio/mpeg">
   Seu navegador não suporta o elemento de áudio.
 </audio>
 ```
 
-- __Vídeo:__ Similar ao elemento de áudio, o elemento <video> é usado para incorporar conteúdo de vídeo em uma página. Também suporta o atributo controls, além de outros como width e height para definir as dimensões do vídeo.
+- __Vídeo:__ Similar ao elemento de áudio, o elemento `<video>` é usado para incorporar conteúdo de vídeo em uma página. Também suporta o atributo controls, além de outros como width e height para definir as dimensões do vídeo.
 
-```
+```html
 <video controls width="250">
   <source src="caminho_para_o_arquivo_de_video.mp4" type="video/mp4">
   Seu navegador não suporta o elemento de vídeo.
@@ -467,7 +423,7 @@ As `<div>`s são elementos cruciais no HTML, usadas para criar estrutura e organ
 
 Exemplo de Div:
 
-```
+```html
 <div id="container">
   <div class="cabecalho">
     <!-- Conteúdo do cabeçalho -->
@@ -483,4 +439,72 @@ Exemplo de Div:
 </div>
 ```
 
-## HTML Semântico
+## HTML:5 Semântico
+
+Com a chegada do HTML5, a linguagem de marcação da web introduziu uma série de novas "tags" semânticas, que servem para estruturar melhor o conteúdo e tornar o código mais acessível, sendo elas o `<header>`, `<main>`, `<section>`, `<article>`, `<figure>` e `<footer>`, cada uma com um propósito específico para melhorar a organização e a semântica do conteúdo.
+
+### `<header>`
+Representa o cabeçalho de uma página ou de uma seção. Geralmente contém um conjunto de introdução ou navegação.
+
+```html
+<header>
+  <h1>Título da Página</h1>
+  <nav>
+    <!-- Links de navegação -->
+  </nav>
+</header>
+```
+
+### `<main>`
+Destina-se ao conteúdo principal do documento, único para cada página, facilitando a identificação da parte mais importante do conteúdo pelos leitores de tela.
+
+```html
+<main>
+  <article>
+    <!-- Conteúdo principal -->
+  </article>
+</main>
+```
+
+### `<section>`
+Usada para definir seções dentro de um documento, como capítulos, agrupamentos temáticos de conteúdo ou funcionalidades.
+
+```html
+<section>
+  <h2>Título da Seção</h2>
+  <!-- Conteúdo da seção -->
+</section>
+```
+
+### `<article>`
+Ideal para partes do conteúdo que podem ser distribuídas independentemente do resto do site, como postagens de blog, artigos de notícias, etc.
+
+```html
+<article>
+  <h2>Título do Artigo</h2>
+  <!-- Conteúdo do artigo -->
+</article>
+```
+
+### `<figure>`
+Usada para incorporar mídias, como imagens, diagramas, fotos, código, que são referenciadas no documento principal.
+
+```html
+<figure>
+  <img src="imagem.jpg" alt="Descrição da imagem">
+  <figcaption>Legenda da imagem</figcaption>
+</figure>
+```
+
+### `<footer>`
+Define o rodapé de uma página ou de uma seção, contendo informações como autor, direitos autorais, links de contato, etc.
+
+```html
+<footer>
+  <!-- Informações do rodapé -->
+</footer>
+```
+
+Segue um exemplo gráfico:
+
+![alt text](archives\laboratoria_img.gif) <sub>Imagem retirada do site [Laboratória](https://curriculum.laboratoria.la/pt/topics/html/html5/semantic-html), todos os direitos reservados a eles.</sub>
