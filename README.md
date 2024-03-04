@@ -21,9 +21,10 @@ Esta branch foi criada para documentar e compartilhar o conhecimento que adquiri
    - [Formulários (`<form>`)](#formulários)
    - [Incorporação de Mídia (Áudio e Vídeo)](#incorporação-de-mídia)
    - [Divisões (`<div>`)](#divisões)
-4. [HTML:5 Semântico](#html5-semântico)
+4. [HTML5 Semântico](#html5-semântico)
    - [Header (`<header>`)](#header-header)
    - [Main (`<main>`)](#main-main)
+   - [Nav (`<nav>`)](#nav-nav)
    - [Section (`<section>`)](#section-section)
    - [Article (`<article>`)](#article-article)
    - [Figure (`<figure>`)](#figure-figure)
@@ -445,7 +446,7 @@ Exemplo de Div:
 </div>
 ```
 
-## HTML:5 Semântico
+## HTML5 Semântico
 
 Com a chegada do HTML5, a linguagem de marcação da web introduziu uma série de novas "tags" semânticas, que servem para estruturar melhor o conteúdo e tornar o código mais acessível, sendo elas o `<header>`, `<main>`, `<section>`, `<article>`, `<figure>` e `<footer>`, cada uma com um propósito específico para melhorar a organização e a semântica do conteúdo.
 
@@ -470,6 +471,20 @@ Destina-se ao conteúdo principal do documento, único para cada página, facili
     <!-- Conteúdo principal -->
   </article>
 </main>
+```
+
+### Nav (`<nav>`)
+
+Utilizada para definir blocos de navegação dentro de um documento, como menus, índices ou barras de navegação.
+
+```html
+<nav>
+  <ul>
+    <li><a href="#inicio">Início</a></li>
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#contato">Contato</a></li>
+  </ul>
+</nav>
 ```
 
 ### Section (`<section>`)
