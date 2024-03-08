@@ -140,13 +140,69 @@ IDS devem ser usados para identificar elementos únicos que precisam ser estiliz
 
 ## Propriedades Do CSS
 
-__color:__ Define a cor de um item.
+### Color
 
-__background:__ Define paramêtros remetentes ao fundo da `<div>` estilizada.
+- __color:__ Define a cor de um item.
+
+### Background
+
+- __background:__ Define paramêtros remetentes ao fundo do elemento estilizada.
 - __background-color:__ Define a cor de fundo do elemento.
 - __background-image:__ Especifica uma imagem a ser usada como plano de fundo.
     - __background-repeat:__ Controla como a imagem de fundo é repetida.
     - __background-position:__ Define a posição inicial da imagem de fundo.
     - __background-size:__ Especifica o tamanho da imagem de fundo.
-    - __background-attachment:__ Define se o plano de fundo rola com o conteúdo ou permanece fixo.
+    - __background-origin:__ Especifica a área de onde a imagem de fundo deve ser originada.
+    - __background-clip:__ Define a área de exibição da imagem de fundo.
+- __background-attachment:__ Define se o plano de fundo rola com o conteúdo ou permanece fixo.
+
+### Border
+
+- __border:__ Configura as características das bordas de um elemento. Seu formato completo (largura, estilo, cor)
+    - __border-top:__ Define parâmetros como largura estilo e cor para cima.
+    - __border-right:__ Define parâmetros como largura estilo e cor para direita.
+    - __border-bottom:__ Define parâmetros como largura estilo e cor para baixo.
+    - __border-left:__ Define parâmetros como largura estilo e cor para esquerda.
+- __border-width:__ Define a largura da borda.
+- __border-style:__ Especifica o estilo da borda.
+    - __border-style: solid__ - Cria uma borda sólida contínua.
+    - __border-style: dotted__ - Cria uma borda composta por pontos.
+    - __border-style: dashed__ - Cria uma borda composta por traços curtos.
+    - __border-style: double__ - Cria uma borda dupla, consistindo em duas linhas sólidas paralelas.
+    - __border-style: groove__ - Cria uma borda tridimensional entalhada, adequada para botões ou caixas destacadas.
+    - __border-style: ridge__ - Cria uma borda tridimensional elevada, oposta à aparência da borda groove.
+    - __border-style: inset__ - Cria uma borda que parece estar embutida na página.
+    - __border-style: outset__ - Cria uma borda que parece se projetar para fora da página.
+    - __border-style: none__ - Remove a exibição de borda.
+    - __border-style: hidden__ - Similar a none, mas pode afetar o layout, mantendo o espaço ocupado pela borda.
+- __border-color:__ Define a cor da borda.
+
+### Margin
+
+ - __margin:__ Cria espaço ao redor dos elementos (usando de paramêtro o fora, pra dentro), fora de quaisquer bordas definidas. Você pode dá um valor único ou inserir na sequência abaixo cada valor em um único comando margin.
+    - __margin-top:__ Cria espaço acima dos elementos.
+    - __margin-right:__ Cria espaço a direita dos elementos.
+    - __margin-bottom:__ Cria espaço abaixo dos elementos.
+    - __margin-left:__ Cria espaço a esquerda dos elementos.
+
+### Padding
+
+- __padding:__ Usada para definir o preenchimento interno (usando como parâmetro o de dentro, elemento, pra o de fora) de um elemento.
+    - __padding-top:__ Cria o preenchimento interno acima dos elementos.
+    - __padding-right:__ Cria o preenchimento interno a direita dos elementos.
+    - __padding-bottom:__ Cria o preenchimento interno abaixo dos elementos.
+    - __padding-left:__ Cria o preenchimento interno a esquerda dos elementos.
+
+### Width & Height
+
+### Text
+
+### Font
+
+### Display
+
+### Max-Width
+
+
+
 
