@@ -195,9 +195,41 @@ IDS devem ser usados para identificar elementos únicos que precisam ser estiliz
 
 ### Width & Height
 
+- __width:__ Define a largura do elemento.
+- __max-width:__ Define uma largura de forma adaptativa, responsivo, ajustando-se com o tamanho da janela.
+- __height:__ Define a altura do elemento.
+
 ### Text
 
+- __text-align:__ Alinhamento de texto, podendo ser: center, left, right, justify.
+- __direction:__ Informar a direção do texto. (RTL ou LTR)
+- __unicode-bidi:__ Informa a direção do texto.
+- __text-decoration:__ Define a decoração do texto.
+
+- __text-decoration: none__ - Remove qualquer decoração de texto (valor padrão).
+    - __text-decoration: underline__ - Adiciona uma linha abaixo do texto.
+    - __text-decoration: overline__ - Adiciona uma linha acima do texto.
+    - __text-decoration: line-through__ - Adiciona uma linha no meio do texto.
+    - __text-decoration: underline overline__ - Adiciona tanto a decoração de sublinhado quanto de sobrelinhado.
+    - __text-decoration: inherit__ - Herda a propriedade de decoração de texto do elemento pai.
+- __text-transform:__ Formata o texto.
+    - __text-transform: none__ - Remove qualquer transformação de texto.
+    - __text-transform: capitalize__ - Transforma a primeira letra de cada palavra em maiúscula.
+    - __text-transform: uppercase__ - Transforma todas as letras do texto em maiúsculas.
+    - __text-transform: lowercase__ - Transforma todas as letras do texto em minúsculas.
+    - __text-transform: full-width__ - Transforma o texto em caracteres de largura completa (principalmente usado com caracteres asiáticos).
+    - __text-transform: full-size-kana__ - Transforma caracteres kana japoneses em suas formas de tamanho completo (não é frequentemente utilizado em textos em português).
+- __text-indent:__  Define o recuo da primeira linha.
+- __letter-spacing:__ Espaçamento entre letras.
+- __word-spacing:__ Espaçamento entre palavras.
+- __line-heigth:__ Definir a altura da linha dentro de um bloco de texto.
+
 ### Font
+
+-__font-family:__ Define o tipo de fonte. 
+- __font-size:__ Definir o tamanho da fonte de um elemento de texto. 
+- __font-style:__ Especifica o estilo da fonte aplicado ao texto de um elemento. Podendo ser: normal, italic, oblique, oblique <angle>.
+- __font-weight:__ Ela determina a "grossura" da fonte, indicando se o texto deve ser exibido com uma fonte mais fina (menor peso) ou mais negrito (maior peso).
 
 ### Display
 
