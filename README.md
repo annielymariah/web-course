@@ -196,7 +196,7 @@ IDS devem ser usados para identificar elementos únicos que precisam ser estiliz
 ### Width & Height
 
 - __width:__ Define a largura do elemento.
-- __max-width:__ Define uma largura de forma adaptativa, responsivo, ajustando-se com o tamanho da janela.
+- __max-width:__ Define uma largura de forma adaptativa, responsiva, ajustando-se com o tamanho da janela.
 - __height:__ Define a altura do elemento.
 
 ### Text
@@ -233,7 +233,29 @@ IDS devem ser usados para identificar elementos únicos que precisam ser estiliz
 
 ### Display
 
-### Max-Width
+- __display:__ Define a exibição do bloco na página.
+    - __display: none__ - O elemento é completamente removido do fluxo do documento e não ocupa espaço. 
+    - __display: block__ - O elemento é exibido como um bloco, ocupando toda a largura disponível. Exemplos de tags com tipo block: `<div>`, `<p>`, `<h1>` a `<h6>`.
+    - __display: inline__ - O elemento não inicia uma nova linha e apenas ocupa seu conteúdo, seguindo a linha. _Elementos inline não podem ter largura e altura definidas. Exemplos de tags com tipo inline: `<a>`, `<span>`, `<adress>`, `<img>`.
+    - __display: inline-block__ - Uma mistura entre inline e block. Ele permanece em linha mas permite definir altura e largura.
+
+### Visibility
+
+### Position
+
+- __position:__ É o posicionamento do elemento com relação a tela, normalmente, quando começamos a trabalhar com um elemento, ele está no posicionamento static. Assim podendo passar parametros de acordo com relação a posição.
+    - __position: relative__ - Posicionamento do elemento relativo a onde ele está presente.
+        - __z-index:__ Define a relação entre altura de camadas de elementos, só funciona com relative. Usa-se apenas números inteiros.
+    - __position: fixed__ - Deixa um elemento fixo na tela independente da rolagem de elementos, como um pop-up de canto de tela. Com fixed, liberasse a relação de coordenadas pela tela inteira, utilizando-se de:
+        - __bottom:__ Define o deslocamento com a base da página.
+        - __top:__ Define o deslocamento com o topo da página.
+        - __left:__ Define o deslocamento com a esquerda da página.
+        - __right:__ Define o deslocamento com a direita da página.
+    - __position: absolute__ - Diz respeito a posição com relação ao "pai" dele. Como a `<div>` em que o elemento está contido. Mas, para que isso ocorra, o posicionamento pai não pode ser __static__, pois ela irá se basear com o elemento que tiver um position diferente de static. 
+    - __position: sticky__ - Ela cola com a barra de rolagem, quando você desce sua barra de rolagem, ela irá descer junto ao sair da tela. O deslocamento sticky ela permanece contida na tag pai dela.
+    
+### Overflow
+
 
 
 
