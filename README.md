@@ -274,7 +274,7 @@ Exemplo:
 </ol>
 ```
 
-### Links
+### Links (Tag âncora)
 
 `<a>` define um hyperlink, podendo ser usado para linkar para outra página, um endereço de email, entre outros.
 
