@@ -1,7 +1,7 @@
 <h1 align="center">HTML | HyperText Markup Language</h1>
 
 
-Esta branch foi criada para documentar e compartilhar o conhecimento que adquiri sobre HTML. Para meu aprendizado, utilizei a documentação da Mozilla Developer Network (MDN), além de participar do Curso de HTML oferecido por Dimitri Teixeira através de seu canal no YouTube, Programação Web.
+Esta branch foi criada para documentar e compartilhar o conhecimento que adquiri sobre HTML. Para meu aprendizado, utilizei a documentação da Mozilla Developer Network (MDN), além de participar do Curso de HTML oferecido por Dimitri Teixeira através de seu canal no YouTube, Programação Web e a rota de estudos web da Alura.
 
 ### Índice
 1. [Introdução ao HTML](#introdução-ao-html)
@@ -38,7 +38,8 @@ HTML ou HyperText Markup Language é uma linguagem de marcação que tem como ob
 
 A estrutura de um documento HTML é composta fundamentalmente por duas partes principais: `<head>` e `<body>`. Cada uma desempenha papéis distintos na construção de uma página web, oferecendo ao navegador as informações necessárias para renderizar o conteúdo de maneira apropriada.
 
-Além disso, é crucial incluir a declaração `<!DOCTYPE html>` no início de qualquer documento HTML. Essa prática tem raízes históricas, onde as páginas web eram diferenciadas com base no tipo de linguagem utilizada. A inclusão dessa declaração era necessária para garantir a correta interpretação do conteúdo.
+Além disso, é crucial incluir a declaração `<!DOCTYPE html>` no início de qualquer documento HTML. Essa prática tem raízes históricas, onde as páginas web eram diferenciadas com base no tipo de linguagem utilizada. A inclusão dessa declaração era necessária para garantir a correta interpretação do conteúdo. 
+- Ao remover a declaração, você ativará o **Modo Quirks** que é uma funcionalidade gerada para compreender páginas antigas que não utilizavam essa declaração. É possível, ao utilizar do especionar, visualizar o alerta: Page layout may be unexpected due to Quirks Mode.
 
 Páginas mais antigas podem requerer ajustes para se alinharem aos padrões modernos. A utilização do `<!DOCTYPE html>` permanece como uma prática recomendada para garantir a consistência e a conformidade com os padrões web atuais.
 
