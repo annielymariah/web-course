@@ -1,43 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-  
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Valor de estilização universal.*/
+
 body {
     background-color: black;
     color: white;
-    font-family: "Montserrat", sans-serif;
-    font-size: 24px;
+    height: 100%;
+    /*Tamanho da tela, vh vem da porcentagem da tela (viewport).*/
+    box-sizing: border-box;
+    /*Propriedade para que nada saia do body.*/
 }
 
-h1 {
+.text-content {
+    display: flex;
+    flex-direction: column;
+    width: 615px;
+    gap: 40px;
+}
+
+.title {
     font-family: "Krona One", sans-serif;
     font-size: 36px;
 }
 
-strong {
+.title-bold {
     color: #F473A9;
-}  
+    text-align: justify;
+}
 
-a {
-    background-color: #F473A9;
-    width: 280px;
-    height: 80px;
-    padding: 16px;
-    border-radius: 16px;
+.paragraph {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    text-align: justify;
+
+}
+
+.button-flex {
+    display: flex;
+    justify-content: space-between;
     gap: 16px;
+}
+
+.button-style {
     font-family: "Krona One", sans-serif;
+    text-align: center;
     text-decoration: none;
     color: black;
     font-size: 24px;
+    border-radius: 16px;
+    background-color: #F473A9;
+    width: 280px;
+    height: 33px;
+    padding: 21.5px 0px;
+
 }
 
-a:hover {
+.button-style:hover {
     background-color: #6F3332;
     width: 280px;
-    height: 80px;
-    padding: 16px;
+    height: 33px;
+    text-align: center;
+    padding: 21.5px 0px;
     border-radius: 16px;
-    gap: 16px;
     font-family: "Krona One", sans-serif;
     text-decoration: none;
     color: white;
+}
+
+.container {
+    margin: 10% 20%;
+    display: flex;
+    /* Ou inline-flex. */
+    justify-content: space-between;
+    align-items: center;
+    /*O align-items alinha os itens de acordo com o próprio alinhamento deles. o align-items alinha os itens de acordo com o próprio alinhamento deles. (Dos itens inseridos).*/
+    /*flex-direction: row;
+    justify-content: center;
+    align-content: center;
+*/
 }

@@ -226,10 +226,27 @@ IDS devem ser usados para identificar elementos únicos que precisam ser estiliz
 
 ### Font
 
--__font-family:__ Define o tipo de fonte. 
+- __font-family:__ Define o tipo de fonte. 
+
+Você pode importar outras font familys para utiliza-las no seu CSS, bastar acessar: https://fonts.google.com/.
+
+Ao acessar, basta pesquisar a fonte desejada e seleciona-la. Após isso, aperte em **<> GET EMBED CODE**. Você apenas deverá copiar o modo @import e o colar no seu CSS, assim inserindo. Exemplo:
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+```
+
+
 - __font-size:__ Definir o tamanho da fonte de um elemento de texto. 
 - __font-style:__ Especifica o estilo da fonte aplicado ao texto de um elemento. Podendo ser: normal, italic, oblique, oblique <angle>.
 - __font-weight:__ Ela determina a "grossura" da fonte, indicando se o texto deve ser exibido com uma fonte mais fina (menor peso) ou mais negrito (maior peso).
+
 
 ### Display
 
@@ -238,8 +255,6 @@ IDS devem ser usados para identificar elementos únicos que precisam ser estiliz
     - __display: block__ - O elemento é exibido como um bloco, ocupando toda a largura disponível. Exemplos de tags com tipo block: `<div>`, `<p>`, `<h1>` a `<h6>`.
     - __display: inline__ - O elemento não inicia uma nova linha e apenas ocupa seu conteúdo, seguindo a linha. _Elementos inline não podem ter largura e altura definidas. Exemplos de tags com tipo inline: `<a>`, `<span>`, `<adress>`, `<img>`.
     - __display: inline-block__ - Uma mistura entre inline e block. Ele permanece em linha mas permite definir altura e largura.
-
-### Visibility
 
 ### Position
 
@@ -255,6 +270,41 @@ IDS devem ser usados para identificar elementos únicos que precisam ser estiliz
     - __position: sticky__ - Ela cola com a barra de rolagem, quando você desce sua barra de rolagem, ela irá descer junto ao sair da tela. O deslocamento sticky ela permanece contida na tag pai dela.
     
 ### Overflow
+
+### Visibility
+
+Incompleto.
+
+### Flexbox
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+## Reset CSS & Normalize CSS
+
+## Unidades de medidas e suas influências em CSS
+
+Para a geração de páginas responsivas, encontra-se a necessidade de compreender apropriadamente a utilização das unidades de medidas declaradas em nossas estilizações CSS. Afinal, declarar **medidas absolutas** para determinados conteúdos pode ocasionar em uma má formatação da página ao ser visualizada em outros dispositivos. Mas, como que isso funciona? No CSS, existem **medidas absolutas**, aqueles valores fixos, e **medidas relativas**, valores esses que se baseiam em uma referência. Segue abaixo uma melhor explicação.
+
+### Medidas absolutas
+
+De acordo com Paulo Scalercio, desenvolvedor da Alura, medidas absolutas são medidas que não estão referenciadas a qualquer outra unidade, ou seja, não dependem de um valor de referência. Dentre as medidas absolutas, nós temos:
+
+- Píxels (px)
+- Points (pt)
+- in (inches/polegadas)
+- Centímetro e Milímetro (cm / mm)
+- Paica (pc)
+
+### Medidas relativas
+
+Essas são medidas são calculadas com base uma outra unidade de medida definida, como por exemplo o tamanho total da tela do dispositivo. Se definirmos que algo ocupará 100% da tela, essa porcentagem terá que se basear de acordo com o tamanho total da tela, para aí sim cobri-la completamente. Dentre as medidas relativas, temos:
+
+- Ems (em)
+- Rems (rem, "root em")
+- Porcentagem (%)
+- Vw (viewport width)
+- Vh (viewport height)
+
 
 
 
