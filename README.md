@@ -271,6 +271,8 @@ Ao acessar, basta pesquisar a fonte desejada e seleciona-la. Após isso, aperte 
     
 ### Overflow
 
+Incompleto.
+
 ### Visibility
 
 Incompleto.
@@ -280,6 +282,8 @@ Incompleto.
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 ## Reset CSS & Normalize CSS
+
+Incompleto.
 
 ## Unidades de medidas e suas influências em CSS
 

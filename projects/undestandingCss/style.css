@@ -1,0 +1,13 @@
+body {
+    background-color: aliceblue;
+}
+
+.exemplo_back {
+    background-color: aliceblue;
+    height: 100px;
+}
+
+.exemplo_back_image {
+    background-image: url("colocar url");
+    height: 100px;
+}
