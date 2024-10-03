@@ -1,0 +1,25 @@
+<html lang="pt-br"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 3</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="consult-cep">
+        
+        <h1>Consultar CEP</h1>
+        
+        <form id="cep-form">
+            <label for="cep">Digite o CEP:</label>
+            <input type="text" id="cep" name="cep" maxlength="8" pattern="\d{8}" placeholder="00000-000" required>
+            <button type="submit">Enviar</button>
+            <small>Exemplo: 12345678</small>
+        </form>
+    </div>
+    <div class="result" id="result">
+        O resultado aparecerá aqui.
+    </div>
+</body>
+</html>
